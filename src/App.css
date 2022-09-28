@@ -1,0 +1,50 @@
+@import "~bootstrap/dist/css/bootstrap.rtl.min.css";
+@import "css/font/fonts.css";
+@import "css/font/fonts.css";
+
+body,
+html {
+  direction: rtl;
+}
+
+* {
+  font-family: Vazir !important;
+  font-size: 12pt;
+}
+
+.delete {
+  color: red;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: red;
+  font-size: 14pt !important;
+  cursor: pointer;
+  font-weight: bolder !important;
+}
+
+.edit {
+  color: orange;
+  font-size: 14pt !important;
+  cursor: pointer;
+}
+.edit:hover {
+  color: orange;
+  font-size: 14pt !important;
+  cursor: pointer;
+  font-weight: bolder !important;
+}
+
+.view {
+  color: green;
+  font-size: 14pt !important;
+  cursor: pointer;
+}
+.view:hover {
+  color: green;
+  font-size: 14pt !important;
+  cursor: pointer;
+  font-weight: bolder !important;
+}
